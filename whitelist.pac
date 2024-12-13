@@ -4,10 +4,7 @@ var okToLoadBalance = false;
 
 var proxy = [
     // add more proxies to load-balance!
-    "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080;",
-    "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1081",
-    "SOCKS5 127.0.0.1:1082; SOCKS 127.0.0.1:1082",
-    "SOCKS5 127.0.0.1:1083; SOCKS 127.0.0.1:1083"
+    "SOCKS5 127.0.0.1:7890"
 ];
 
 var direct = "DIRECT";
